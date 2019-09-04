@@ -55,7 +55,7 @@ app.get('/cities/:city', (req, res) => {
 });
 
 
-app.listen(process.env.PORT || 3000, () => console.log(`Server is up and running on ${PORT} 🚨`));
+app.listen(process.env.PORT || 3000, () => console.log(`Server is upp and running on ${PORT} 🚨`));
 
 // Static Database
 const forecasts = [
